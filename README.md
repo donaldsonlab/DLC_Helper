@@ -24,8 +24,24 @@ Run in a windows 10 environment using Anaconda 4.7.5 and python 3.7.3
 1. [Follow these instructions](https://github.com/AlexEMG/DeepLabCut/blob/master/docs/installation.md)
 
 ## Running the Script
+**Important**: At anytime the script can be paused by clicking into the window, hit enter to resume
 
-1. 
+1. Open anaconda prompt
+
+2. Type ```activate name_of_environment```
+
+3. Change direcotries using ``cd Downloads\``` 
+
+4. Run the script by typing ```python DLC_Helper.py```
+
+5. In the script:
+    * Enter the project title ex. TestProject
+    * Enter the experimenter's name ex. Chase or Chase Dudas
+    * *wait*
+    * Type in the name of the video ex. Vole 1159 side video 1  
+    * Eneter the full path leading to the selected video ex. C:\Users\Behavior Scoring\Downloads\Vole 1159 side video 1.mpg
+    * Enter the working directory ex. C:\Users\Behavior Scoring\Desktop\DeepLabCutProjects
+    * Done! Now sit back and let the magic happen
 
 ## Deployment
 
